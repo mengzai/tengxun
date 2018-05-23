@@ -90,7 +90,7 @@ if __name__ == '__main__':
     argv2 = 'userFeature_split.data'
     argv3 = 'adFeature.csv'
     argv4 = 'train.csv'
-    argv5 = 'test.csv'
+    argv5 = 'test2.csv'
     path = argv1
     userFeature_data = pd.read_csv(path + argv2)
     adFeature_data = pd.read_csv(path + argv3)
